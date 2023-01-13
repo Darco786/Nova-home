@@ -56,3 +56,10 @@
     @apply mx-auto max-w-[1440px] w-[90%];
   }
 }
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+.logo-txt{
+  font-family: 'Paytone One';
+    font-size: 33px;
+    font-weight: 600;
+    color: #28a0f0;
+}

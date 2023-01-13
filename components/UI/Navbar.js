@@ -5,8 +5,8 @@ function Navbar() {
   return (
     <div className="absolute top-0 left-0 w-full z-[10000]">
       <div className="container h-[90px] flex items-center justify-between">
-        <img src="images/logo-main.png" className="h-[40px]" alt="" />
-
+        {/* <img src="images/logo-main.png" className="h-[40px]" alt="" /> */}
+      <h1 className="logo-txt">NOVA</h1>
         <div className="flex items-center space-x-4">
           <Button>Trade</Button>
         </div>
