@@ -5,6 +5,19 @@ import Navbar from "@/components/UI/Navbar";
 export default function Home() {
   return (
     <>
+    <Head>
+        <title>Cool Title</title>
+        <meta name="description" content="Checkout our cool page" key="desc" />
+        <meta property="og:title" content="Social Title for Cool Page" />
+        <meta
+          property="og:description"
+          content="And a social description for our cool page"
+        />
+        <meta
+          property="og:image"
+          content="https://example.com/images/cool-page.jpg"
+        />
+      </Head>
       <div className="min-h-screen z-10 flex items-end pb-10">
         <Navbar />
 
@@ -21,12 +34,7 @@ export default function Home() {
         <div className="z-50 relative w-full">
           <div className="container">
             <div className="mb-6 md:mb-8">
-              {/* <h1 className="font-myriad font-bold text-center text-fawn text-sm mb-3">
-              Leass a d Lssng B esal
-            </h1>
-            <h1 className="font-myriad font-bold text-center text-fawn text-4xl mb-4">
-              Leass a d Lssng B esal
-            </h1> */}
+           
 
               <p className="text-center text-fawn max-w-[30rem] text-sm mx-auto">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
