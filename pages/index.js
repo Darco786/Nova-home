@@ -1,12 +1,12 @@
 import Button from "@/components/UI/Button";
 import DotParticals from "@/components/UI/DotParticals";
 import Navbar from "@/components/UI/Navbar";
-
+import Head from "next/head"
 export default function Home() {
   return (
     <>
     <Head>
-        <title>Cool Title</title>
+        <title>NOVA inu</title>
         <meta name="description" content="Checkout our cool page" key="desc" />
         <meta property="og:title" content="Social Title for Cool Page" />
         <meta

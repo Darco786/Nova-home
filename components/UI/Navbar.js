@@ -9,6 +9,7 @@ function Navbar() {
         {/* <h1 className="text-2xl lg:text-3xl font-bold font-myriad logo-txt">NOVA</h1> */}
 
         <div className="flex items-center space-x-4">
+        <Button className='head-btn'>WHITEPAPER</Button>
           <Button className='head-btn'>Trade</Button>
         </div>
       </div>
