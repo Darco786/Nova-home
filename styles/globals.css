@@ -59,3 +59,7 @@
 .logo-txt{
   color: #03a9f4;
 }
+.head-btn{
+  background: linear-gradient(123deg, rgb(255 255 255) 2%,rgba(19,100,194,1) 11%, rgba(1,42,100,1) 47%, rgba(21,100,123,1) 88%);
+  padding: 8% 61%;
+}
