@@ -59,17 +59,17 @@ const particlesConfig ={
           "duration": 0.4,
           "easing": "ease-out-quad",
           "factor": 1,
-          "maxSpeed": 50,
+          "maxSpeed": 1,
           "speed": 1
         },
         "bounce": {
-          "distance": 200
+          "distance": 800
         },
         "bubble": {
           "distance": 250,
           "duration": 2,
           "mix": false,
-          "opacity": 0,
+          "opacity": 0.5,
           "size": 0,
           "divs": {
             "distance": 200,
@@ -81,7 +81,7 @@ const particlesConfig ={
         "connect": {
           "distance": 80,
           "links": {
-            "opacity": 0.5
+            "opacity": 0.2
           },
           "radius": 60
         },
@@ -99,7 +99,7 @@ const particlesConfig ={
           "quantity": 4
         },
         "remove": {
-          "quantity": 2
+          "quantity": 10
         },
         "repulse": {
           "distance": 400,
@@ -168,7 +168,7 @@ const particlesConfig ={
       },
       "collisions": {
         "absorb": {
-          "speed": 2
+          "speed": 1
         },
         "bounce": {
           "horizontal": {
@@ -189,7 +189,7 @@ const particlesConfig ={
         "enable": false,
         "mode": "bounce",
         "overlap": {
-          "enable": true,
+          "enable": false,
           "retries": 0
         }
       },
@@ -248,10 +248,10 @@ const particlesConfig ={
         "drift": 0,
         "enable": true,
         "gravity": {
-          "acceleration": 9.81,
+          "acceleration": 3.81,
           "enable": false,
           "inverse": false,
-          "maxSpeed": 50
+          "maxSpeed": 20
         },
         "path": {
           "clamp": true,
@@ -347,7 +347,7 @@ const particlesConfig ={
         "animation": {
           "count": 0,
           "enable": false,
-          "speed": 4,
+          "speed": 0.8,
           "decay": 0,
           "sync": false,
           "destroy": "none",
@@ -458,7 +458,7 @@ const particlesConfig ={
       },
       "twinkle": {
         "lines": {
-          "enable": false,
+          "enable": true,
           "frequency": 0.05,
           "opacity": 1
         },
@@ -535,7 +535,7 @@ const particlesConfig ={
     "pauseOnBlur": true,
     "pauseOnOutsideViewport": true,
     "responsive": [],
-    "smooth": false,
+    "smooth": true,
     "style": {},
     "themes": [],
     "zLayers": 100
