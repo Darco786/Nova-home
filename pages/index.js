@@ -6,16 +6,21 @@ export default function Home() {
   return (
     <>
     <Head>
-        <title>NOVA inu</title>
-        <meta name="description" content="Checkout our cool page" key="desc" />
-        <meta property="og:title" content="Social Title for Cool Page" />
+        <title>NOVA inu|Decentralized Perpetual Exchange</title>
+        <meta name="description" content="Trade spot or perpetual BTC, ETH, AVAX and other top cryptocurrencies " key="real yield,
+    ai,
+    futures,
+    leverage,
+    trading,
+    crypto," />
+        <meta property="og:title" content="Trade spot or perpetual BTC, ETH, AVAX and other top cryptocurrencies " />
         <meta
           property="og:description"
-          content="And a social description for our cool page"
+          content="Trade spot or perpetual BTC, ETH, AVAX and other top cryptocurrencies "
         />
         <meta
           property="og:image"
-          content="https://example.com/images/cool-page.jpg"
+          content="images/nova.png"
         />
       </Head>
       <div className="min-h-screen z-10 flex items-end pb-10">
